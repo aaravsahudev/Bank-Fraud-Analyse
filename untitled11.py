@@ -87,7 +87,7 @@ plt.tight_layout()
 plt.savefig('fraud_by_city.png', dpi=150)
 plt.show()
 
-print("\n✅ Analysis Complete! Charts saved.")
+print("\n Analysis Complete! Charts saved.")
 
 # ═══════════════════════════════════════════════════════════════════
 # ANALYSIS 4: FRAUD BY Payment Method
@@ -229,4 +229,8 @@ plt.tight_layout()
 plt.savefig('fraud_by_pin_changed_recently.png', dpi=150)
 plt.show()
 
-print("\n✅ All analyses complete! Charts saved with highlighted top categories.")
+print("\n All analyses complete! Charts saved with highlighted top categories.")
+
+print("=================== result ===========================")
+
+print("This bank fraud analysis identified several factors associated with fraudulent transactions. The results show that fraud is more common in countries such as the United States, India, and the United Kingdom, with fraudsters frequently targeting ATM withdrawals, jewelry purchases, and cryptocurrency exchanges. Fraudulent transactions are often conducted using credit or debit cards, through mobile devices, by younger customers, and during unusual hours such as late at night. To reduce fraud, banks should implement real-time AI-based fraud detection systems, multi-factor authentication (MFA), transaction monitoring, device verification, instant customer alerts, and risk-scoring mechanisms. Additionally, customer awareness programs and enhanced security checks for high-risk transactions can help prevent fraud and improve overall banking security.")
